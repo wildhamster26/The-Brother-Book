@@ -1,0 +1,193 @@
+html, body {
+	height: 95%;
+}
+body {
+	font-family: 'Goudy Bookletter 1911', serif;
+	background-color: #FCFBE3;
+}
+
+/* The main "book" div styling */
+.container {
+	background-image: url("assets/background.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 95%;
+	height:100%;
+	margin: 1% 2%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 50px #696969;
+}
+
+/*DIVIDING THE SCREEN INTO 2 ROWS AND 2 COLUMNS*/
+.wrapper {
+	width: 95%;
+	height:90%;
+	margin: 1% 2%;
+	text-align: center;
+	padding: auto 10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5%;
+	grid-template-rows: 25% 75%;
+}
+
+/*======================*/
+/*TEXT DESIGNS START HERE*/
+/*======================*/
+
+p {
+	font-size: 1.5em;
+	text-align: center;
+	margin: initial;
+}
+
+#topLeftText {
+	grid-column: 1;
+	grid-row: 1;
+    align-self: center;
+}
+
+#topRightText {
+	grid-column: 2;
+	grid-row: 1;
+    align-self: center;
+}
+
+/*======================*/
+/*IMAGE DESIGNS START HERE*/
+/*======================*/
+img {
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 5px 5px 50px #696969;
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.bottomLeftImage {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.bottomRightImage {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+/*ADDING A CLASS TO MAKE ALL IRRELEVANT CELLS DISAPPEAR*/
+.none {
+	display: none;
+}
+
+/*STYLING THE ARROWS TO "FLIP" PAGES*/
+#rightBar {
+	font-size: 1.5em;
+	float: right;
+}
+
+#leftBar {
+	font-size: 1.5em;
+	float: left;
+}
+
+#nextPage:hover, #lastPage:hover, #previousPage:hover, #firstPage:hover {
+	color: #FFD300;
+}
+
+
+/*STYLING FOR BROTHER/SISTER FORM ON THE FIRST PAGE*/
+#radio1 {
+	position: absolute;
+	width:40%;
+	left: 54%;
+	top: 42%;
+}
+
+hr {
+	width: 80%;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(222, 222, 222, 0), rgba(222, 222, 222, 0.75), rgba(222, 222, 222, 0));
+}
+
+.line {
+	width:50%;
+	margin: auto;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	float: center;
+}
+
+$color1: #f4f4f4;
+$color2: #3197EE;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 1px solid #DEDEDE;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:hover {
+  border: 2px solid steelblue;
+}
+
+input:checked {
+  border: 2px solid steelblue;
+  content: "";
+  border-radius: 50%;
+  background-color: steelblue;
+}
+
+.title {
+	font-size: 3em;
+	position:relative;
+	top:50px;
+}
+
+.dedication {
+	position:relative;
+	top:50px;
+}
+
+#pageFlipExplanation {
+	font-size: 0.5em;
+	margin-top: 10%;
+}
+
+
+/*I am not adding a mobile-size scenario as this file will only be viewed on the computer. 
+It will never be uploaded to an actual server, as it is a simple book.
+for css training, though, the property can be: 
+@media only screen and (max-width: 767px)   
+and should be applied on the body. This is not a fool-proof solution, and there may be a better one.
+
+Here is a good article on full screen background images for future reference: 
+https://www.webpagefx.com/blog/web-design/responsive-background-image/ */

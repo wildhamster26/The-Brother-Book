@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The brother book</title>
+	<link rel="stylesheet" type="text/css" href="brotherBook.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+		<div class="container">
+			<div class="wrapper">
+				<p id="topLeftText"></p>	
+				<p id="topRightText"></p>
+				<image class="bottomLeftImage" src="">
+				<image class="bottomRightImage" src="">
+			</div>
+				<div id="radio1">
+					<form>
+						<p>Please choose the right setting for your family.<br> Make sure you choose for both big sibling and baby sibling.</p> <br>
+						<div class="line">
+							<div class="left">
+								<input type="radio" name="big" id="bigBrother" value="bigBrother">
+								<label>Big Brother</label>
+							</div>
+							<div class="center">
+								<input type="radio" name="big" id="bigSister" value="bigSister">
+								<label>Big Sister</label>
+							</div>
+						</div>
+						<hr>
+						<div class="line">
+							<div class="left">
+								<input type="radio" name="baby" id="babyBrother" value="babyBrother" class="baby">
+								<label>Baby Brother</label>
+							</div>
+							<div class="center">
+								<input type="radio" name="baby" id="babySister" value="babySister" class="baby">
+								<label>Baby Sister</label>
+							</div>
+						</div>
+					</form>	
+				<div id="pageFlipExplanation">
+					<p>Starting from the next page you may turn pages by using the keyboard arrow buttons <br>or the arrowhead buttons at the bottom of the page. <br> This page can only be turned by the arrowhead buttons.</p>
+				</div>
+				</div>
+			<div>
+				<p id="rightBar"><i id="nextPage" class="fa fa-angle-right" aria-hidden="true"></i> <i id="lastPage" class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+				<p id="leftBar"><i id="firstPage" class="fa fa-angle-double-left" aria-hidden="true"></i> <i id="previousPage" class="fa fa-angle-left" aria-hidden="true"></i></p>
+			</div>
+		</div>
+
+
+
+<script type="text/javascript" src="brotherBookPageDataFunctions.js"></script>
+<script type="text/javascript" src="brotherBookUserSiblingChoiceFunctions.js"></script>
+<script type="text/javascript" src="brotherBookDataBase.js"></script>
+<script type="text/javascript" src="brotherBook.js"></script>
+</body>
+</html>
