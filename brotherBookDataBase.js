@@ -11,7 +11,7 @@ let pageData = [
 		topLeftText: "Our baby was born not long ago,<br> now I'm a big <span class='bigSister'>brother</span> - well,  that much I know.",
 		bottomLeftImage: "assets/bigBrother.jpg",
 		topRightText: "But whatever I do with whoever comes 'round,<br> a plain explanation can't seem to be found.",
-		bottomRightImage: "assets/doctor.jpg"
+		bottomRightImage: "assets/explanation.jpg"
 	},
 	{
 		topLeftText: "I am a big <span class='bigSister'>brother</span>, it's all different now,<br> but I can't put my finger exactly on... how.",
@@ -23,19 +23,19 @@ let pageData = [
 		topLeftText: "I can brush my own teeth and get dressed by myself,<br> I can open the fridge and take food from the shelf.",
 		topRightText: "<span class='indi'>as I grew it was clear: I take great pride and joy<br> in my independence, as I'm a big boy.</span>",
 		bottomLeftImage:"assets/fridge.jpg",
-		bottomRightImage:"assets/big_boy.jpg"
+		bottomRightImage:"assets/bigBoy.jpg"
 	},
 	{
 		topLeftText:"Now, I'm not very sure, but I think that just maybe...<br> Was it better for me when I was a small baby?",
 		topRightText: "I think it is worth at least a quick try -<br> I lay on the floor, I whine and I cry,<br> I drink from a bottle and not from my cup.<br> I ask daddy: 'please, will you come pick me up?'",
 		bottomLeftImage:"assets/bigBaby.jpg",
-		bottomRightImage:"assets/pick_me_up.jpg"
+		bottomRightImage:"assets/pickMeUp.jpg"
 	},
 	{
 		topLeftText:"But mommy and daddy, (though they play along)<br>seem to have noticed that something is wrong.",
 		topRightText: "So... I'll stay a big <span class='girl'>boy</span> because babies can't play <br> and laying and crying's not fun anyway.",
 		bottomLeftImage: "assets/family.jpg",
-		bottomRightImage: "assets/doctorSmile.jpg"
+		bottomRightImage: "assets/stay.jpg"
 	},
 	{
 		topLeftText: "And so my new role remains strange and new.<br> Big <span class='bigSister'>brother</span>, big <span class='bigSister'>brother</span> - but what should I do?",
@@ -55,19 +55,19 @@ let pageData = [
 	},
 	{
 		topLeftText:"I've asked a few things until now, and I guess<br> that I'll keep asking more (as I cannot ask less),<br> until the whole answer to all this weird mess<br> is finally revealed.  That is, unless - ",
-		bottomLeftImage:"assets/tired.jpg",
+		bottomLeftImage:"assets/general.jpg",
 		bottomRightImage:"assets/superBrothers.jpg"
 	},
 	{	
 		topLeftText: "It is one of those things that cannot be taught,<br> like that warm happy feeling when a present is brought,",
 		topRightText: "Yes, it's one of those things that no one can teach,<br> like laughter when hugged and get ten kisses each.",
-		bottomRightImage: "assets/bellyTickle.jpg",
 		bottomLeftImage: "assets/brothers.jpg"
+		bottomRightImage: "assets/together.jpg",
 	},
 	{
 		topLeftText: "Big <span class='bigSister'>brother</span>? <br> big <span class='bigSister'>brother</span>. <br> My <span class='babySister'>brother</span> and me - <br> Together we'll learn just how great it will be.",
-		bottomRightImage: "assets/superFamilyCollage.jpg",
 		bottomLeftImage: "assets/play.jpg"
+		bottomRightImage: "assets/superFamily.jpg",
 	}
 	
 ];
