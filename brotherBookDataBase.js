@@ -61,13 +61,13 @@ let pageData = [
 	{	
 		topLeftText: "It is one of those things that cannot be taught,<br> like that warm happy feeling when a present is brought,",
 		topRightText: "Yes, it's one of those things that no one can teach,<br> like laughter when hugged and get ten kisses each.",
-		bottomLeftImage: "assets/brothers.jpg"
-		bottomRightImage: "assets/together.jpg",
+		bottomLeftImage: "assets/brothers.jpg",
+		bottomRightImage: "assets/together.jpg"
 	},
 	{
 		topLeftText: "Big <span class='bigSister'>brother</span>? <br> big <span class='bigSister'>brother</span>. <br> My <span class='babySister'>brother</span> and me - <br> Together we'll learn just how great it will be.",
-		bottomLeftImage: "assets/play.jpg"
-		bottomRightImage: "assets/superFamily.jpg",
+		bottomLeftImage: "assets/play.jpg",
+		bottomRightImage: "assets/superFamily.jpg"
 	}
 	
 ];
