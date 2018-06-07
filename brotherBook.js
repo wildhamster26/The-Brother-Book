@@ -3,9 +3,8 @@
 //Tasks - 
 //1. reorganizing the variables to a minimum exposure scope.
 //2. cleaning up the functions and DRYing them.
-//3. fixing arrow key functionality for the first page without changing the radio buttons(if user is on them while pressing).
-//4. fixing the image upload that is sometimes off.
-//5. fixing the unclear change in margin of the first page image whenever the user changes big brother/sister radio input.
+//3. fixing the image upload that is sometimes off.
+//4. fixing the unclear change in margin of the first page image whenever the user changes big brother/sister radio input.
 
 
 //================================================
@@ -42,11 +41,10 @@ let freshPage = (pageNum) => {
 //PREVIOUS/NEXT PAGE FUNCTIONALITY
 
 		//LEFT AND RIGHT KEYBOARD ARROWS
-
 		let checkKeyPress = (key) => {
-			if(key.keyCode == "37" && (pageNum !==0)) {
+			if(key.keyCode == "37") {
 				previous();
-		    } else if (key.keyCode == "39" && (pageNum !==0)) {
+		    } else if (key.keyCode == "39") {
 				next();
 		    }
 		}
@@ -60,6 +58,8 @@ let freshPage = (pageNum) => {
 				freshPage(pageNum);
 			}
 		};
+		//PREVIOUS PAGE BUTTON
+		previousPage.addEventListener('click', previous, false);
 
 		let next = (event) => {
 			if (pageNum < pageData.length-1){ 
@@ -67,12 +67,9 @@ let freshPage = (pageNum) => {
 				freshPage(pageNum);
 			}
 		};
-		
-		//PREVIOUS PAGE BUTTON
-		previousPage.addEventListener('click', previous, false);
-
 		//NEXT PAGE BUTTON FUNCTIONALITY
 		nextPage.addEventListener('click', next, false);
+		
 
 //FIRST PAGE BUTTON FUNCTIONALITY
 firstPage.addEventListener('click', (event) => {
