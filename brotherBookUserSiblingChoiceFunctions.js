@@ -23,10 +23,12 @@ const big = document.getElementsByName("big");
 
 big[1].addEventListener("click", () => {
 		broSis();
+		big[1].blur();
 });
 
 big[0].addEventListener("click", () => {
 		broSis();
+		big[0].blur();
 });
 
 
@@ -73,10 +75,12 @@ const baby = document.getElementsByName("baby");
 
 baby[1].addEventListener("click", () => {
 		babySibling();
+		baby[1].blur();
 });
 
 baby[0].addEventListener("click", () => {
 		babySibling();
+		baby[0].blur();
 });
 
 
@@ -101,3 +105,7 @@ let babySibling = () => {
 		} 
 	}
 };
+
+let getElement = (element) => {
+	
+} 
