@@ -40,36 +40,38 @@ let freshPage = (pageNum) => {
 
 //PREVIOUS/NEXT PAGE FUNCTIONALITY
 
-		//LEFT AND RIGHT KEYBOARD ARROWS
-		let checkKeyPress = (key) => {
-			if(key.keyCode == "37") {
-				previous();
-		    } else if (key.keyCode == "39") {
-				next();
-		    }
+	//LEFT AND RIGHT KEYBOARD ARROWS
+	let checkKeyPress = (key) => {
+		if(key.keyCode == "37") {
+			previous();
+	    } else if (key.keyCode == "39") {
+			next();
+	    }
+	}
+	window.addEventListener("keyup", checkKeyPress, false);
+
+
+	//THE PREVIOUS/NEXT CALLBACK FUNCTIONS
+	let previous = (event) => {
+		if (pageNum > 0) {
+			pageNum--;
+			freshPage(pageNum);
 		}
-		window.addEventListener("keyup", checkKeyPress, false);
+	};
+	//PREVIOUS PAGE BUTTON
+	previousPage.addEventListener('click', previous, false);
 
-
-		//THE PREVIOUS/NEXT CALLBACK FUNCTIONS
-		let previous = (event) => {
-			if (pageNum > 0) {
-				pageNum--;
-				freshPage(pageNum);
-			}
-		};
-		//PREVIOUS PAGE BUTTON
-		previousPage.addEventListener('click', previous, false);
-
-		let next = (event) => {
-			if (pageNum < pageData.length-1){ 
-				pageNum++;
-				freshPage(pageNum);
-			}
-		};
-		//NEXT PAGE BUTTON FUNCTIONALITY
-		nextPage.addEventListener('click', next, false);
+	let next = (event) => {
+		if (pageNum < pageData.length-1){ 
+			pageNum++;
+			freshPage(pageNum);
+		}
+	};
+	//NEXT PAGE BUTTON FUNCTIONALITY
+	nextPage.addEventListener('click', next, false);
 		
+
+
 
 //FIRST PAGE BUTTON FUNCTIONALITY
 firstPage.addEventListener('click', (event) => {

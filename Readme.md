@@ -7,36 +7,48 @@ Name your pictures according to the table and place all pictures inside the "ass
 
 page number      page side          file name
 ===========================================================
+
 1                left               main.jpg
+
 -----------------------------------------------------------
 2                left               bigBrother.jpg
 2                right              explanation.jpg
+
 -----------------------------------------------------------
 3                left               sun.jpg
 3                right              grass.jpg
+
 -----------------------------------------------------------
 4                left               fridge.jpg
 4                right              bigBoy.jpg
+
 -----------------------------------------------------------
 5                left               bigBaby.jpg
 5                right              pickMeUp.jpg
+
 -----------------------------------------------------------
 6                left               family.jpg
 6                right              stay.jpg
+
 -----------------------------------------------------------
 7                right              question.jpg
+
 -----------------------------------------------------------
 8                left               care.jpg
 8                right              help.jpg
+
 -----------------------------------------------------------
 9                left               embrace.jpg
 9                right              caress.jpg
+
 -----------------------------------------------------------
 10               left               general.jpg
 10               right              superBrothers.jpg
+
 -----------------------------------------------------------
 11               left               brothers.jpg
 11               right              together.jpg
+
 -----------------------------------------------------------
 12               left               play.jpg
 12               right              superFamily.jpg
