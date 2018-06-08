@@ -52,7 +52,7 @@ let broSis = () => {
 		};
 		let girl = document.querySelector(".girl");
 		if (girl !== null) {
-			girl.innerHTML = "girl";
+			girl.textContent = "girl";
 		}
 		
 	} else if (big[0].checked) {
