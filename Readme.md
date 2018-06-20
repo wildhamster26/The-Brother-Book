@@ -1,14 +1,16 @@
 # The-Brother-Book
+Mostly finished.
+
 A book I wrote for my sons, aimed to help the big brother/sister cope with the big changes that come with a newborn, 
 by raising awareness to the unfamiliarity and novelty of this situation.
 
 You should add your own family pictures instead of the initial ones.
 Name your pictures according to the table and place all pictures inside the "assets" folder. Make sure that you are REPLACING the files, and not just adding them. CAPITAL LETTERS MATTER.
 
-page number      page side          file name
+page number    ||  page side    ||      file name
 ===========================================================
 
-1                left               main.jpg
+1        ||        left       ||        main.jpg
 
 -----------------------------------------------------------
 2                left               bigBrother.jpg
