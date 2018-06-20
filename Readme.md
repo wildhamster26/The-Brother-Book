@@ -15,7 +15,7 @@ page number      page side          file name
 1                left               main.jpg
 
 -----------------------------------------------------------
-2                left               bigBrother.jpg   | |
+2                left               bigBrother.jpg   
 2                right              explanation.jpg
 
 -----------------------------------------------------------
